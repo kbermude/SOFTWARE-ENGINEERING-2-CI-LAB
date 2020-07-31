@@ -29,4 +29,9 @@ public class RelationalOperatorTest {
 		RelationalOperator tester = new RelationalOperator();
 		assertFalse(tester.isLess(5, 1));
 	}
+	@Test
+	public void isLessTest1() {
+		RelationalOperator tester = new RelationalOperator();
+		assertTrue(tester.isLess(2, 4));
+	}
 }
